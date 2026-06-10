@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-06-10 11:32:16">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Custom.role.access.updateset.26May.Vaishali.Singh</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>d503c01ac30d075468b2f54d05013102</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>a49b1607c3914f9868b2f54d0501311d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e2205492c301475468b2f54d0501311d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:13:00</sys_created_on><sys_id>e2205492c301475468b2f54d0501311d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">68205092c301475468b2f54d050131bb</sys_security_acl><sys_update_name>sys_security_acl_role_e2205492c301475468b2f54d0501311d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:13:00</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>949755598</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>209b1607c3914f9868b2f54d05013123</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6321357c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>68205092c301475468b2f54d050131bb</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>bc6054d28e014754178c6d8386e4d570</update_guid>
+<update_guid_history>bc6054d28e014754178c6d8386e4d570:949755598</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_06fd289ac309475468b2f54d05013123</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>sys_update_set_source</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 09:23:17</sys_created_on><sys_id>06fd289ac309475468b2f54d05013123</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_update_set_source</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_06fd289ac309475468b2f54d05013123</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 09:23:17</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>146229952</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>249b1607c3914f9868b2f54d0501311f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63987b3a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>sys_update_set_source</table>
+<target_name>sys_update_set_source</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>d13eecdaa2094754d0668f2fea7fbd75</update_guid>
+<update_guid_history>d13eecdaa2094754d0668f2fea7fbd75:146229952</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_477f845ec3cd075468b2f54d050131cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>sys_update_set</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:09:56</sys_created_on><sys_id>477f845ec3cd075468b2f54d050131cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_update_set</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_477f845ec3cd075468b2f54d050131cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:09:56</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1900923694</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>289b1607c3914f9868b2f54d05013120</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e631e66160000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>sys_update_set</table>
+<target_name>sys_update_set</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ffaf001244014754f4b3a132ca64addc</update_guid>
+<update_guid_history>ffaf001244014754f4b3a132ca64addc:-1900923694</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_24df0c12c301475468b2f54d0501312f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:11:20</sys_created_on><sys_id>24df0c12c301475468b2f54d0501312f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">0ecfc412c301475468b2f54d05013116</sys_security_acl><sys_update_name>sys_security_acl_role_24df0c12c301475468b2f54d0501312f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:11:20</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-212296429</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>2c9b1607c3914f9868b2f54d05013121</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e631fad1a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>0ecfc412c301475468b2f54d05013116</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>1c001852e50147547649ccfd03dd91b7</update_guid>
+<update_guid_history>1c001852e50147547649ccfd03dd91b7:-212296429</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_540e20dac309475468b2f54d050131d9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 09:23:17</sys_created_on><sys_id>540e20dac309475468b2f54d050131d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">06fd289ac309475468b2f54d05013123</sys_security_acl><sys_update_name>sys_security_acl_role_540e20dac309475468b2f54d050131d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 09:23:17</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-227640953</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>609b1607c3914f9868b2f54d05013122</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63987acb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>06fd289ac309475468b2f54d05013123</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>513eecdae90947549a6f8fa9d71a336b</update_guid>
+<update_guid_history>513eecdae90947549a6f8fa9d71a336b:-227640953</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_0583c6760a0a0b8000d06ad9224a81a2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;gs.hasRole('admin') || gs.hasRole('x_custom.update_set_user')&lt;/condition&gt;&lt;form_action&gt;false&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint&gt;Import update set from an XML file exported from another instance&lt;/hint&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;true&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;true&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Import Update Set from XML&lt;/name&gt;&lt;onclick&gt;callLoadUpdateSet();&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function callLoadUpdateSet() {
+	var url = new GlideURL('upload.do');
+	url.addParam('sysparm_referring_url', "sys_remote_update_set_list.do?sysparm_fixed_query=sys_class_name=sys_remote_update_set");
+	url.addParam('sysparm_target', "sys_remote_update_set");
+	g_navigation.open(url.getURL());
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dloo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2010-01-06 21:23:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;0583c6760a0a0b8000d06ad9224a81a2&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;Import Update Set from XML&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="System Update Sets (with remote update set support)" source="com.glide.system_update_set"&gt;f0f1b4e1bc7032108bb2f58e8d11a161&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_0583c6760a0a0b8000d06ad9224a81a2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-26 09:37:53&lt;/sys_updated_on&gt;&lt;table&gt;sys_remote_update_set&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1934704212</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>649b1607c3914f9868b2f54d05013123</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63a5d7ef0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>sys_remote_update_set</table>
+<target_name>Import Update Set from XML</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>8b81bc9ae14947540886fba15f85685b</update_guid>
+<update_guid_history>8b81bc9ae14947540886fba15f85685b:1934704212,c781bc9a2349475497b82412b1a9cd57:43675507</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_0b701cd2c301475468b2f54d05013145</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>sys_update_xml</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:14:58</sys_created_on><sys_id>0b701cd2c301475468b2f54d05013145</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_update_xml</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_0b701cd2c301475468b2f54d05013145</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:14:58</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1881187480</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>689b1607c3914f9868b2f54d0501311f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6322ffda0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>sys_update_xml</table>
+<target_name>sys_update_xml</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>29d0545670014754f7483f9d22fa9d77</update_guid>
+<update_guid_history>29d0545670014754f7483f9d22fa9d77:-1881187480</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_4ef9cc96c38d075468b2f54d050131bb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow create for records in sys_update_set, for users with role x_custom.update_set_user.</description><local_or_existing>Existing</local_or_existing><name>sys_update_set</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 06:47:11</sys_created_on><sys_id>4ef9cc96c38d075468b2f54d050131bb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sys_update_set</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_4ef9cc96c38d075468b2f54d050131bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 06:47:56</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-595467742</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>6c9b1607c3914f9868b2f54d05013120</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e630a3fc30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>sys_update_set</table>
+<target_name>sys_update_set</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>adaacc5a1a8d0754e917f090cffeae7f</update_guid>
+<update_guid_history>adaacc5a1a8d0754e917f090cffeae7f:-595467742,a27ac05a038d0754b39545f689cfc101:-1603425394</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_68205092c301475468b2f54d050131bb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>sys_update_xml</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:13:01</sys_created_on><sys_id>68205092c301475468b2f54d050131bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_update_xml</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_68205092c301475468b2f54d050131bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:13:01</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1684855604</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>a09b1607c3914f9868b2f54d05013121</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e632135ff0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>sys_update_xml</table>
+<target_name>sys_update_xml</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>3c6054d2580147547d821bb7fdf79d93</update_guid>
+<update_guid_history>3c6054d2580147547d821bb7fdf79d93:1684855604</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_b80a80d6c38d075468b2f54d050131a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 06:47:10</sys_created_on><sys_id>b80a80d6c38d075468b2f54d050131a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">4ef9cc96c38d075468b2f54d050131bb</sys_security_acl><sys_update_name>sys_security_acl_role_b80a80d6c38d075468b2f54d050131a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 06:47:10</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-385750254</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>a49b1607c3914f9868b2f54d05013122</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63098e970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>4ef9cc96c38d075468b2f54d050131bb</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a67a805ae98d0754aa8da73503115290</update_guid>
+<update_guid_history>a67a805ae98d0754aa8da73503115290:-385750254</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_42d84c52c38d075468b2f54d05013100</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Able to create , update record on update set table </description><elevated_privilege>false</elevated_privilege><encryption_context/><federated_id>xXIzZK4Ygo3DnabJ/tU2gYuHJDAXlFsusk2V6U2g4fo=</federated_id><grantable>true</grantable><includes_roles/><name>x_custom.update_set_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 06:40:19</sys_created_on><sys_id>42d84c52c38d075468b2f54d05013100</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_42d84c52c38d075468b2f54d05013100</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 06:41:05</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-155084478</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>a89b1607c3914f9868b2f54d05013123</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6303f9490000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table/>
+<target_name>x_custom.update_set_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>45198c927f8d07542955783a8dfc3975</update_guid>
+<update_guid_history>45198c927f8d07542955783a8dfc3975:-155084478,8ee840925c8d0754a1b2a226db6fb861:-1786587622</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_0ecfc412c301475468b2f54d05013116</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>sys_update_set</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:11:20</sys_created_on><sys_id>0ecfc412c301475468b2f54d05013116</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_update_set</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_0ecfc412c301475468b2f54d05013116</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:11:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1603425394</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>ac9b1607c3914f9868b2f54d0501311f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e631fad880000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>sys_update_set</table>
+<target_name>sys_update_set</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>9c001852b20147540453e5a73b3e4fc1</update_guid>
+<update_guid_history>9c001852b20147540453e5a73b3e4fc1:-1603425394</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3e1c2852c309475468b2f54d050131e0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow write for records in sys_update_set_source, for users with role x_custom.update_set_user.</description><local_or_existing>Existing</local_or_existing><name>sys_update_set_source</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 09:15:05</sys_created_on><sys_id>3e1c2852c309475468b2f54d050131e0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sys_update_set_source</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_3e1c2852c309475468b2f54d050131e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 09:21:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1725349007</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>e09b1607c3914f9868b2f54d05013120</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6396a96b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>sys_update_set_source</table>
+<target_name>sys_update_set_source</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>8ccdac5a62094754c0d7cbafabf87973</update_guid>
+<update_guid_history>8ccdac5a62094754c0d7cbafabf87973:-1725349007,cd5c6c92850947543aee8991c2ef9a7e:-830053660</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_1180dcd2c301475468b2f54d05013194</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:14:58</sys_created_on><sys_id>1180dcd2c301475468b2f54d05013194</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">0b701cd2c301475468b2f54d05013145</sys_security_acl><sys_update_name>sys_security_acl_role_1180dcd2c301475468b2f54d05013194</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:14:58</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-123110186</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>e49b1607c3914f9868b2f54d05013121</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6322ff7b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>0b701cd2c301475468b2f54d05013145</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>e9d0141625014754d50796ebdccc2d78</update_guid>
+<update_guid_history>e9d0141625014754d50796ebdccc2d78:-123110186</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_ca8f88dec38d075468b2f54d050131d2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:09:56</sys_created_on><sys_id>ca8f88dec38d075468b2f54d050131d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">477f845ec3cd075468b2f54d050131cb</sys_security_acl><sys_update_name>sys_security_acl_role_ca8f88dec38d075468b2f54d050131d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:09:56</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1959404929</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>e89b1607c3914f9868b2f54d05013122</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e631e64f50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table>477f845ec3cd075468b2f54d050131cb</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>bbaf001287014754cdb74ee538ef44b6</update_guid>
+<update_guid_history>bbaf001287014754cdb74ee538ef44b6:1959404929</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_processor_fb4038b40a0a3c1e00d0a2c1d3908a33</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_processor"&gt;&lt;sys_processor action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;description&gt;Unloads a retrieved update set and all of the related customizations as a downloadable XML document.  This document can then be loaded into another system.&lt;/description&gt;&lt;interactive&gt;true&lt;/interactive&gt;&lt;name&gt;ExportUpdateSet&lt;/name&gt;&lt;parameters/&gt;&lt;params_endpoint/&gt;&lt;path&gt;export_update_set&lt;/path&gt;&lt;path_endpoint/&gt;&lt;require_csrf&gt;true&lt;/require_csrf&gt;&lt;roles&gt;admin,delegated_developer&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function process(g_request, g_response, g_processor) {
+    var sysid = g_request.getParameter('sysparm_sys_id');
+    var remoteUpdateGR = new GlideRecord('sys_remote_update_set');
+    if (!remoteUpdateGR.get(sysid)) {
+        gs.addErrorMessage(gs.getMessage('Update Set is invalid'));
+        return;
+    }
+    // if (!gs.hasRole('admin') &amp;&amp; !sn_app_api.AppStoreAPI.canPublishToUpdateSet(remoteUpdateGR.application)) 
+	
+	
+	if (!gs.hasRole('admin') &amp;&amp; !gs.hasRole('x_custom.update_set_user') &amp;&amp; !sn_app_api.AppStoreAPI.canPublishToUpdateSet(remoteUpdateGR.application)) 
+	
+	{
+        gs.addErrorMessage(gs.getMessage('You do not have permission to perform this operation'));
+        g_response.setStatus(403);
+        return;
+    }
+    var exporter = new ExportWithRelatedLists('sys_remote_update_set', sysid);
+    exporter.addRelatedList('sys_update_xml', 'remote_update_set');
+    exporter.exportRecords(g_response);
+
+    var isRemote = g_request.getParameter('sysparm_is_remote');
+    var analytics = new sn_update_set.UpdateSetAnalytics();
+    analytics.sendExportAnalytic(sysid, false, isRemote);
+
+    var del = g_request.getParameter('sysparm_delete_when_done');
+    if (del == "true" &amp;&amp; remoteUpdateGR.canDelete())
+        remoteUpdateGR.deleteRecord();
+})(g_request, g_response, g_processor);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_processor&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2010-01-04 21:31:47&lt;/sys_created_on&gt;&lt;sys_id&gt;fb4038b40a0a3c1e00d0a2c1d3908a33&lt;/sys_id&gt;&lt;sys_mod_count&gt;47&lt;/sys_mod_count&gt;&lt;sys_name&gt;ExportUpdateSet&lt;/sys_name&gt;&lt;sys_package display_value="System Update Sets (with remote update set support)" source="com.glide.system_update_set"&gt;f0f1b4e1bc7032108bb2f58e8d11a161&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_processor_fb4038b40a0a3c1e00d0a2c1d3908a33&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-26 09:32:51&lt;/sys_updated_on&gt;&lt;type&gt;script&lt;/type&gt;&lt;xframe_sameorigin&gt;true&lt;/xframe_sameorigin&gt;&lt;/sys_processor&gt;&lt;/record_update&gt;</payload>
+<payload_hash>574863312</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>ec9b1607c3914f9868b2f54d0501311d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63a13bf80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table/>
+<target_name>ExportUpdateSet</target_name>
+<type>Processor</type>
+<update_domain>global</update_domain>
+<update_guid>d1603c56e1494754419e485325322048</update_guid>
+<update_guid_history>d1603c56e1494754419e485325322048:574863312,9d60bc166e49475482313a93ac6efe45:978481195</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_6dda0d1ec301875468b2f54d0501310a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>false</is_private><name>glide.ui.security.upload.roles</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 11:30:37</sys_created_on><sys_id>6dda0d1ec301875468b2f54d0501310a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.ui.security.upload.roles</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_6dda0d1ec301875468b2f54d0501310a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 11:30:37</sys_updated_on><type>string</type><value>x_custom.update_set_user</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=6dda0d1ec301875468b2f54d0501310a"/></record_update>]]></payload>
+<payload_hash>584311743</payload_hash>
+<remote_update_set display_value="Custom.role.access.updateset.26May.Vaishali.Singh">a49b1607c3914f9868b2f54d0501311d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-10 11:32:15</sys_created_on>
+<sys_id>ec9b1607c3914f9868b2f54d0501311e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e640d107e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-10 11:32:15</sys_updated_on>
+<table/>
+<target_name>glide.ui.security.upload.roles</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>225b41deb3018754c68c6bf3a2d9d490</update_guid>
+<update_guid_history>225b41deb3018754c68c6bf3a2d9d490:584311743</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
