@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-06-11 10:23:47">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Custom role access  check</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>09c1585ac301475468b2f54d05013183</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>1b75d71fc35983d868b2f54d05013191</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f616509ec341475468b2f54d0501316e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow read for records in sys_remote_update_set, for users with role x_custom.update_set_user.</description><local_or_existing>Existing</local_or_existing><name>sys_remote_update_set</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:40:19</sys_created_on><sys_id>f616509ec341475468b2f54d0501316e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sys_remote_update_set</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_f616509ec341475468b2f54d0501316e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:40:48</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-198232193</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>13755b1fc35983d868b2f54d0501310b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e633aa5fc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table>sys_remote_update_set</table>
+<target_name>sys_remote_update_set</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>77b6d05257814754007b71362eea7703</update_guid>
+<update_guid_history>77b6d05257814754007b71362eea7703:-198232193,f4a65812da814754875c11bb399ef524:1142411028</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_widget_7162105ec301475468b2f54d0501317e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">9f1298dac301475468b2f54d05013106</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"rangesConfig":{},"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Incident","sourceType":"table","tableOrViewName":"incident","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVpbmNpZGVudDE3Nzk3ODAwOTMxNzU=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGVpbmNpZGVudDE3Nzk3ODAwOTMxNzU=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNOemszT0RBd09UTXhOelU9MTc3OTc4MDA5NTMzOA==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"4fthea7q","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":{},"colors":{}}</component_props><h>12</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>updateset user</sys_created_by><sys_created_on>2026-05-26 07:21:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7162105ec301475468b2f54d0501317e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_widget_7162105ec301475468b2f54d0501317e</sys_update_name><sys_updated_by>updateset user</sys_updated_by><sys_updated_on>2026-05-26 07:21:49</sys_updated_on><visualization/><w>12</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+<payload_hash>-892703840</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>1375d71fc35983d868b2f54d05013194</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e632944e10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Widget</type>
+<update_domain>global</update_domain>
+<update_guid>bd62d05e49014754496b614b400a55c3</update_guid>
+<update_guid_history>bd62d05e49014754496b614b400a55c3:-892703840</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e926949ec341475468b2f54d050131b3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:40:18</sys_created_on><sys_id>e926949ec341475468b2f54d050131b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">f616509ec341475468b2f54d0501316e</sys_security_acl><sys_update_name>sys_security_acl_role_e926949ec341475468b2f54d050131b3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:40:18</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-85945125</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>17755b1fc35983d868b2f54d0501310c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e633a337a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table>f616509ec341475468b2f54d0501316e</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b4a65812ea814754cc506e0e38eb7318</update_guid>
+<update_guid_history>b4a65812ea814754cc506e0e38eb7318:-85945125</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_bf0212ab0a0a0b5000c92026108bb6c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Update Sets">a02b3c250a0a0b50000cc3543c6e463a</application><assessment/><device_type/><filter/><hint>Other instances of ServiceNow available to supply Update Sets to this system</hint><homepage/><image>images/icons/update_source.gif</image><link_type>LIST</link_type><map_page/><mobile_title>Update Sources</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sys_update_set_source</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>false</require_confirmation><roles>admin,x_custom.update_set_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>glide.maint</sys_created_by><sys_created_on>2008-03-17 23:12:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>bf0212ab0a0a0b5000c92026108bb6c0</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Update Sources</sys_name><sys_overrides/><sys_package display_value="Admin Homepage Shared Components" source="com.glide.admin_home">c0383461bc3832108bb2f58e8d11a192</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_bf0212ab0a0a0b5000c92026108bb6c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:52:27</sys_updated_on><timeline_page/><title>Update Sources</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1600424999</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>1f755b1fc35983d868b2f54d05013109</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6345524c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table>sys_update_set_source</table>
+<target_name>Update Sources</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>7669949e388147540f518aa07b1a9f29</update_guid>
+<update_guid_history>7669949e388147540f518aa07b1a9f29:1600424999,6269d81a1981475434f06d6c1acef7c6:-896108457</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_permission_d31258dac301475468b2f54d05013163</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>true</can_share><can_write>true</can_write><dashboard display_value="Test">1712d856c301475468b2f54d05013103</dashboard><group/><owner>true</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>updateset user</sys_created_by><sys_created_on>2026-05-26 07:20:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d31258dac301475468b2f54d05013163</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1712d856c301475468b2f54d05013103</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_permission_d31258dac301475468b2f54d05013163</sys_update_name><sys_updated_by>updateset user</sys_updated_by><sys_updated_on>2026-05-26 07:20:33</sys_updated_on><user display_value="Updateset User">cc3984d2c38d075468b2f54d050131da</user></par_dashboard_permission></record_update>]]></payload>
+<payload_hash>-1650554816</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>1f75d71fc35983d868b2f54d05013192</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63281c230000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table/>
+<target_name>1712d856c301475468b2f54d05013103</target_name>
+<type>PAR Dashboard Permission</type>
+<update_domain>global</update_domain>
+<update_guid>d71258da2a014754fd163d7f4bb70569</update_guid>
+<update_guid_history>d71258da2a014754fd163d7f4bb70569:-1650554816</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3e1c2852c309475468b2f54d050131e0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>sys_remote_update_set</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 09:15:05</sys_created_on><sys_id>3e1c2852c309475468b2f54d050131e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_remote_update_set</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_3e1c2852c309475468b2f54d050131e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 09:15:05</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-830053660</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>53755b1fc35983d868b2f54d0501310a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6390f97b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table>sys_remote_update_set</table>
+<target_name>sys_remote_update_set</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>cd5c6c92850947543aee8991c2ef9a7e</update_guid>
+<update_guid_history>cd5c6c92850947543aee8991c2ef9a7e:-830053660</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_tab_571298dac301475468b2f54d05013101</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="Test">1712d856c301475468b2f54d05013103</dashboard><name>New Tab 6</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>updateset user</sys_created_by><sys_created_on>2026-05-26 07:20:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>571298dac301475468b2f54d05013101</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 6</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_tab_571298dac301475468b2f54d05013101</sys_update_name><sys_updated_by>updateset user</sys_updated_by><sys_updated_on>2026-05-26 07:20:33</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+<payload_hash>-1705743126</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>5375d71fc35983d868b2f54d05013193</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63281ce60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table/>
+<target_name>New Tab 6</target_name>
+<type>PAR Dashboard Tab</type>
+<update_domain>global</update_domain>
+<update_guid>131298daf3014754845489e01e935205</update_guid>
+<update_guid_history>131298daf3014754845489e01e935205:-1705743126</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6c4790d2c381475468b2f54d050131dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:43:50</sys_created_on><sys_id>6c4790d2c381475468b2f54d050131dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">693714d2c381475468b2f54d0501310b</sys_security_acl><sys_update_name>sys_security_acl_role_6c4790d2c381475468b2f54d050131dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:43:50</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1066766848</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>57755b1fc35983d868b2f54d0501310b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e633d6ddf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table>693714d2c381475468b2f54d0501310b</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>d87714168f814754397aa20cb92b408e</update_guid>
+<update_guid_history>d87714168f814754397aa20cb92b408e:-1066766848</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_a02b3c250a0a0b50000cc3543c6e463a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category><description/><device_type>browser</device_type><hint/><name>system_update_sets</name><order/><roles>admin,x_custom.update_set_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>glide.maint</sys_created_by><sys_created_on>2008-03-11 23:27:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>a02b3c250a0a0b50000cc3543c6e463a</sys_id><sys_mod_count>6</sys_mod_count><sys_name>System Update Sets</sys_name><sys_overrides/><sys_package display_value="System Update Sets (with remote update set support)" source="com.glide.system_update_set">f0f1b4e1bc7032108bb2f58e8d11a161</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_a02b3c250a0a0b50000cc3543c6e463a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:53:31</sys_updated_on><title>System Update Sets</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-447754784</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>5775d71fc35983d868b2f54d05013194</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63464c1b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table/>
+<target_name>System Update Sets</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>12a918de0f814754f979ab3ec830d914</update_guid>
+<update_guid_history>12a918de0f814754f979ab3ec830d914:-447754784,96a914dead8147540e97bf33acb563e5:-1495283528</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_1712d856c301475468b2f54d05013103</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><base_dashboard/><certified>false</certified><description/><experience/><grid>48</grid><name>Test</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>updateset user</sys_created_by><sys_created_on>2026-05-26 07:20:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1712d856c301475468b2f54d05013103</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Test</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_1712d856c301475468b2f54d05013103</sys_update_name><sys_updated_by>updateset user</sys_updated_by><sys_updated_on>2026-05-26 07:21:49</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+<payload_hash>367746472</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>5f75d71fc35983d868b2f54d05013191</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e632943db0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table/>
+<target_name>Test</target_name>
+<type>PAR Dashboard</type>
+<update_domain>global</update_domain>
+<update_guid>b562105ee10147542f4bcb363742807a</update_guid>
+<update_guid_history>b562105ee10147542f4bcb363742807a:367746472,d31258dab60147547f0fe914a17daf61:367746472</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_canvas_5b1258dac301475468b2f54d050131d6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Test">1712d856c301475468b2f54d05013103</dashboard><dashboard_tab/><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>updateset user</sys_created_by><sys_created_on>2026-05-26 07:20:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5b1258dac301475468b2f54d050131d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_canvas_5b1258dac301475468b2f54d050131d6</sys_update_name><sys_updated_by>updateset user</sys_updated_by><sys_updated_on>2026-05-26 07:20:33</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+<payload_hash>-594795463</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>9375d71fc35983d868b2f54d05013192</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63281cae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Page Canvas</type>
+<update_domain>global</update_domain>
+<update_guid>9f1258da950147543b1c28a4ee01fad9</update_guid>
+<update_guid_history>9f1258da950147543b1c28a4ee01fad9:-594795463</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_693714d2c381475468b2f54d0501310b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>sys_remote_update_set</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:43:50</sys_created_on><sys_id>693714d2c381475468b2f54d0501310b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_remote_update_set</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_693714d2c381475468b2f54d0501310b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:43:50</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1142411028</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>97755b1fc35983d868b2f54d0501310a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e633d6e5a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table>sys_remote_update_set</table>
+<target_name>sys_remote_update_set</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ac77141665814754e02386710d36ac98</update_guid>
+<update_guid_history>ac77141665814754e02386710d36ac98:1142411028</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_user_metadata_5f1258dac301475468b2f54d050131ce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color/><cache_expiration_time>24</cache_expiration_time><card_bg_image/><created_by_user display_value="Updateset User">cc3984d2c38d075468b2f54d050131da</created_by_user><created_on>2026-05-26 07:20:33</created_on><dashboard display_value="Test">1712d856c301475468b2f54d05013103</dashboard><edit_locked/><enable_data_cache>false</enable_data_cache><include_custom_insights>true</include_custom_insights><include_key_contributors>true</include_key_contributors><include_kpi_signals>true</include_kpi_signals><include_predictive_target>true</include_predictive_target><include_predictive_thresholds>true</include_predictive_thresholds><include_process_mining>true</include_process_mining><include_severity>true</include_severity><include_target>true</include_target><include_thresholds>true</include_thresholds><include_trends>true</include_trends><include_widget_notification>true</include_widget_notification><last_deactivated_on/><last_updated_on>2026-05-26 07:21:49</last_updated_on><po_project_id_list>[]</po_project_id_list><refresh_information>false</refresh_information><refresh_interval/><requested_by_user/><schedule_repetition>false</schedule_repetition><show_insights_panel>true</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>updateset user</sys_created_by><sys_created_on>2026-05-26 07:20:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5f1258dac301475468b2f54d050131ce</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_user_metadata_5f1258dac301475468b2f54d050131ce</sys_update_name><sys_updated_by>updateset user</sys_updated_by><sys_updated_on>2026-05-26 07:21:50</sys_updated_on><updated_by_user display_value="Updateset User">cc3984d2c38d075468b2f54d050131da</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors><widgets_margin/></par_dashboard_user_metadata></record_update>]]></payload>
+<payload_hash>-1947411271</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>9775d71fc35983d868b2f54d05013193</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e632947aa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Metadata</type>
+<update_domain>global</update_domain>
+<update_guid>ce62145e310147542b2df97a28e34717</update_guid>
+<update_guid_history>ce62145e310147542b2df97a28e34717:-1947411271,5b1258dabd01475445eceb0324539dd4:-1072891344</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_792cec52c309475468b2f54d050131ac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 09:15:05</sys_created_on><sys_id>792cec52c309475468b2f54d050131ac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">3e1c2852c309475468b2f54d050131e0</sys_security_acl><sys_update_name>sys_security_acl_role_792cec52c309475468b2f54d050131ac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 09:15:05</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1085234056</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>9b755b1fc35983d868b2f54d0501310b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6390f8cc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table>3e1c2852c309475468b2f54d050131e0</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>055c6c9285094754c5067b8d009d1971</update_guid>
+<update_guid_history>055c6c9285094754c5067b8d009d1971:1085234056</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_canvas_9f1298dac301475468b2f54d05013106</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Test">1712d856c301475468b2f54d05013103</dashboard><dashboard_tab display_value="New Tab 6">571298dac301475468b2f54d05013101</dashboard_tab><layout>[{"sys_id":"7162105ec301475468b2f54d0501317e","x":0,"y":0,"w":12,"h":12,"component_id":"d24d53f60350de7a652caf3188a46ed2","component_props":"{\"configVersion\":\"23.0.0-ci-SNAPSHOT\",\"scoreSize\":\"auto\",\"headingPosition\":\"top\",\"sparklineStyle\":\"area\",\"scoreIcon\":\"\",\"iconStyle\":\"background\",\"showScoreDate\":false,\"useRelativeScoreTime\":false,\"showScoreUpdateTime\":false,\"showZero\":true,\"rangesConfig\":{},\"colorConfig\":{\"type\":\"default\"},\"newReporting\":false,\"enableAddZerosAtApi\":true,\"additionalGroupByConfig\":[],\"dataSources\":[{\"isDatabaseView\":false,\"allowRealTime\":true,\"label\":\"Incident\",\"sourceType\":\"table\",\"tableOrViewName\":\"incident\",\"preferredVisualizations\":[\"d24d53f60350de7a652caf3188a46ed2\"],\"id\":\"dGFibGVpbmNpZGVudDE3Nzk3ODAwOTMxNzU=\",\"dataCategories\":[\"trend\",\"group\",\"simple\"]}],\"showHeader\":true,\"showTotalAggregate\":false,\"showSubAggregate\":false,\"showFirstGroupAggregate\":false,\"showSecondGroupAggregate\":false,\"hideMatrixAggregate\":false,\"wrapTitle\":false,\"showLoadingIndicator\":false,\"showHeaderSeparator\":false,\"contextMenuActions\":[],\"headingLevel\":2,\"showBorder\":true,\"bareBorder\":false,\"telemetry\":null,\"showDataPassthrough\":false,\"showAdditionalGroupBySelector\":false,\"allowAdditionalGroupByPerMetric\":false,\"metrics\":[{\"dataSource\":\"dGFibGVpbmNpZGVudDE3Nzk3ODAwOTMxNzU=\",\"id\":\"ZEdGaWJHVnBibU5wWkdWdWRERTNOemszT0RBd09UTXhOelU9MTc3OTc4MDA5NTMzOA==\",\"aggregateFunction\":\"COUNT\",\"numberFormat\":{\"customFormat\":false},\"axisId\":\"primary\"}],\"groupBy\":null,\"filterPerMetric\":[],\"sortBy\":\"value\",\"sortByOrder\":\"desc\",\"trendBy\":null,\"showChange\":false,\"showChangePercentage\":false,\"showTarget\":false,\"showForecast\":false,\"showForecastRange\":false,\"showTrend\":false,\"showConfidenceBand\":false,\"showGapPercentage\":false,\"showSparkline\":false,\"showMetricLabel\":false,\"showThreshold\":false,\"showComment\":false,\"followFilters\":true,\"showFilterIcon\":true,\"enableRealTimeUpdate\":false,\"enableDrilldown\":true,\"enableClickAndStay\":false,\"showDataTable\":false,\"enableCustomEmptyState\":false,\"componentId\":\"4fthea7q\",\"emptyStateIllustration\":\"no-data\",\"emptyStateHeading\":\"No data available.\",\"emptyStateHeadingLevel\":3,\"emptyStateContent\":\"There are no scores available for the selected criteria. Contact your admin for more info.\",\"emptyStateAlignment\":\"vertical-centered\",\"refreshFrequency\":null,\"hideDevSettings\":false,\"configPropModifiers\":{},\"filterConfigurations\":\"@state.parFilters\",\"showMaximumRange\":false,\"allowChangeDateRange\":false,\"showDateRangeByDefault\":false,\"applyDateRange\":false,\"numberOfPeriods\":3,\"showAbsolutePeriod\":false,\"scoreType\":null,\"showChangeFrom\":false,\"useCurrentDateForEnd\":false,\"period\":\"M\",\"useDataCache\":false,\"cacheExpirationTime\":0,\"showCacheTime\":true,\"dateFormat\":\"default\",\"showRefresh\":true,\"showFilterAsSeparateSeries\":false,\"userInfo\":\"@context.session.user\",\"sharedContext\":{},\"colors\":{}}","can_edit":true}]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>updateset user</sys_created_by><sys_created_on>2026-05-26 07:20:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9f1298dac301475468b2f54d05013106</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_canvas_9f1298dac301475468b2f54d05013106</sys_update_name><sys_updated_by>updateset user</sys_updated_by><sys_updated_on>2026-05-26 07:21:49</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+<payload_hash>-1830896069</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>d775d71fc35983d868b2f54d05013192</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e632945510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Page Canvas</type>
+<update_domain>global</update_domain>
+<update_guid>7962d05ed6014754f1278c9c614cffcc</update_guid>
+<update_guid_history>7962d05ed6014754f1278c9c614cffcc:-1830896069,531298da460147545c37f705fcc23409:-758540217</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_6ca71816c381475468b2f54d05013138</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>sys_metadata</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:45:43</sys_created_on><sys_id>6ca71816c381475468b2f54d05013138</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_metadata</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_6ca71816c381475468b2f54d05013138</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:45:43</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>77225676</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>db755b1fc35983d868b2f54d0501310a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e633f2b1f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table>sys_metadata</table>
+<target_name>sys_metadata</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>98e75896ab814754b5d3df4a134ad3f6</update_guid>
+<update_guid_history>98e75896ab814754b5d3df4a134ad3f6:77225676</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_visibility_a71298dac301475468b2f54d0501310c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility"><par_dashboard_visibility action="INSERT_OR_UPDATE"><dashboard display_value="Test">1712d856c301475468b2f54d05013103</dashboard><experience display_value="Platform Analytics">08c73d60537101100834ddeeff7b1287</experience><sys_class_name>par_dashboard_visibility</sys_class_name><sys_created_by>updateset user</sys_created_by><sys_created_on>2026-05-26 07:20:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a71298dac301475468b2f54d0501310c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>par_dashboard_visibility_a71298dac301475468b2f54d0501310c</sys_update_name><sys_updated_by>updateset user</sys_updated_by><sys_updated_on>2026-05-26 07:20:34</sys_updated_on></par_dashboard_visibility></record_update>]]></payload>
+<payload_hash>1837008209</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>db75d71fc35983d868b2f54d05013193</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e63281edc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Visibility</type>
+<update_domain>global</update_domain>
+<update_guid>631298da710147541e2fea8c82c61da5</update_guid>
+<update_guid_history>631298da710147541e2fea8c82c61da5:1837008209</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e3a79456c381475468b2f54d05013156</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-26 07:45:43</sys_created_on><sys_id>e3a79456c381475468b2f54d05013156</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_custom.update_set_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">6ca71816c381475468b2f54d05013138</sys_security_acl><sys_update_name>sys_security_acl_role_e3a79456c381475468b2f54d05013156</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-26 07:45:43</sys_updated_on><sys_user_role display_value="x_custom.update_set_user" name="x_custom.update_set_user">42d84c52c38d075468b2f54d05013100</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>2044446838</payload_hash>
+<remote_update_set display_value="Custom role access  check">1b75d71fc35983d868b2f54d05013191</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-11 10:23:47</sys_created_on>
+<sys_id>df755b1fc35983d868b2f54d0501310b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e633f25c00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-11 10:23:47</sys_updated_on>
+<table>6ca71816c381475468b2f54d05013138</table>
+<target_name>.x_custom.update_set_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b3d7d496eb8147545ceb48c63d913aa8</update_guid>
+<update_guid_history>b3d7d496eb8147545ceb48c63d913aa8:2044446838</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
